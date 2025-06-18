@@ -205,7 +205,5 @@ export default function ContactPage() {
   );
 }
 
-export const metadata = {
-  title: 'Contact Us | Analytica AI',
-  description: 'Get in touch with Analytica AI to discuss your project requirements or book a consultation for our AI, data analytics, and Geoscience services.',
-};
+// Removed metadata export as it's not allowed in "use client" components.
+// If metadata is needed for this page, it should be defined in a parent server component or layout.
