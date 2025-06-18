@@ -1,5 +1,6 @@
+
 import { testimonials } from '@/lib/data';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card';
 import Image from 'next/image';
 import { Star } from 'lucide-react'; // Using Star for visual appeal
 
